@@ -1,0 +1,27 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "An FCC Backend Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodenv . --exec nodemon",
+    "start": "npm run server"
+  },
+  "author": "David Booth",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.23",
+    "node-env-run": "^3.0.2",
+    "nodemon": "^2.0.4",
+    "valid-url": "^1.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidbooth-dev/url-shortner-micro-service"
+  }
+}
